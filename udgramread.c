@@ -17,7 +17,7 @@
 #include <string.h>
 #include <unistd.h>
 
-#define NAME "/home/danil/socket"
+#define NAME "socket"
 
 /*
  * This program creates a UNIX domain datagram socket, 
