@@ -22,7 +22,7 @@
 
 int main(int argc, char *argv[]) {
   if (argc < 3) {
-    perror("usage: streamwrite hostname portnumber");
+    fprintf(stderr, "usage: %s hostname portnumber\n", argv[0]);
     exit(1);
   }
 

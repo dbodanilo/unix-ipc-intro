@@ -20,7 +20,7 @@
 
 int main(int argc, char *argv[]) {
   if (argc < 3) {
-    perror("usage: dgramsend hostname portnumber");
+    fprintf(stderr, "usage: %s hostname portnumber\n", argv[0]);
     exit(1);
   }
 
